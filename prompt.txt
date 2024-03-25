@@ -1,0 +1,18 @@
+//photo prompt Microsoft Bing 
+1-3 car in galari photo realistic
+2-a man looking for a new car in a car galari
+3-a lot of car in car gallery outside, in outside there ar some grass, a few family
+4-The officer working in the gallery is showing a car to his customer(eril)
+
+
+//website prompt  chatGPT, Gemini, Copilot
+1-bana galari web sitesi yapabilmem için kod üretir  misin html css ve ve javascript kullanarak modern bir görüntü olsun
+2-sağ üst kısımda menü olabilir mi yan yana  home ve about sayfalarına gitsin 
+3-menü elemanları sytle ı olmasın ve yan yana sağ üst koşede olsunn background colorı purple olsun
+4-resimleri sileder ile gezmek istiyorum ana sayfada 
+5-bir butonn ekleyebilirmisin resimler arasında geçiş yapabilmem için
+6-how can ı center buttons below the images
+7-bana about sayafası içeriği üretebilir misin about.html
+8-Semantik Etiketlerin Kullanılması: Web sitesinin HTML yapısında, semantik
+etiketlerin(header, main, nav, section, article, aside, footer) ekler misin about sayfasına 
+9-web sitem mobilde uyumlu olsun istiyorum

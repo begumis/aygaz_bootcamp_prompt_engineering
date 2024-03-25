@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: purple; /* Menu background color */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menu elements side-by-side */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px; /* Padding for menu items */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Hover background color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.gallery {
+    position: relative;
+    max-width: 600px; /* Gallery maximum width */
+    margin: 0 auto; /* Center the gallery horizontally */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.image-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+}
+
+.image-container img {
+    flex: 0 0 auto; /* Prevent images from shrinking */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.buttons button {
+    margin: 0 5px; /* Space between buttons */
+}
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+main section {
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Adjust as needed */
+    }
+
+    .gallery {
+        max-width: 100%; /* Allow the gallery to take up the full width */
+    }
+
+    footer {
+        position: static;
+    }
+}
